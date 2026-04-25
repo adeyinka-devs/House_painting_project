@@ -160,7 +160,7 @@ p {
   top: -40px;
   left: 15px;
 }
-@media (min-width: 768px), (min-width: 1024px) {
+@media (min-width: 768px) {
   .bg-upper {
   background-color: rgb(216, 216, 224);
   height: 450px;
@@ -179,3 +179,23 @@ p {
   z-index: -12;
  }
 }
+@media (min-width: 1024px) {
+  .bg-upper {
+  background-color: rgb(216, 216, 224);
+  height: 450px;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  }
+  .bg-lower {
+  background-color: #008000;
+  min-height: 273px;
+  max-height: 300px; 
+  min-width: 100%;
+  position: absolute;
+  top: 445px;
+  z-index: -12;
+ }
+}
+
