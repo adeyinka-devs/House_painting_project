@@ -10,7 +10,7 @@ body {
 .bg-upper {
   background-color: rgb(216, 216, 224);
   height: 450px;
-  width: 510px;
+  min-width: 510px;
   max-width: 600px;
   position: absolute;
   top: 0;
@@ -30,7 +30,7 @@ body {
   background-color: #008000;
   height: 50%;
   max-height: 65%;
-  width: 510px;
+  min-width: 510px;
   max-width: 600px;
   position: absolute;
   top: 445px;
@@ -164,7 +164,7 @@ p {
   .bg-upper {
   background-color: rgb(216, 216, 224);
   height: 450px;
-  width: 100%;
+  min-width: 100%;
   position: absolute;
   top: 0;
   z-index: -10;
@@ -172,7 +172,7 @@ p {
   .bg-lower {
   background-color: #008000;
   height: 273px;
-  width: 100%;
+  min-width: 100%;
   position: absolute;
   top: 445px;
   z-index: -12;
