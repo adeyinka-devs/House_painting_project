@@ -169,7 +169,7 @@ p {
   top: 0;
   z-index: -10;
   }
-  bg-lower {
+  .bg-lower {
   background-color: #008000;
   height: 273px;
   width: 100%;
