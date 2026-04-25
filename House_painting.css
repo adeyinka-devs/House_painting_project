@@ -10,7 +10,7 @@ body {
 .bg-upper {
   background-color: rgb(216, 216, 224);
   height: 450px;
-  width: 505px;
+  width: 510px;
   max-width: 600px;
   position: absolute;
   top: 0;
@@ -30,7 +30,7 @@ body {
   background-color: #008000;
   height: 50%;
   max-height: 65%;
-  width: 505px;
+  width: 510px;
   max-width: 600px;
   position: absolute;
   top: 445px;
